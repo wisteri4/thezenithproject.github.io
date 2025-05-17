@@ -6,18 +6,17 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
+}/*To avoid the browser's default padding and margin creating spaces around elements and allow the properties to cover the page to its fullest*/
 
 body{
     font-family: "Merriweather", serif;
     background-color: #F9F9F9;
-}
+}/*Set the font family and default background colour of the webpage*/
 
 header{
     padding-top: 30px;
     background: #F9F9F9;
-    box-shadow: 8px 0 10px#dcdcdc;
-}
+}/*The headers padding and background colour, applies to all webpage with the header*/
 
 #titlenlogo{
     display: block;
@@ -26,7 +25,7 @@ header{
     margin-top: 30px;
     width: 250px;
     height: 110px;
-}
+}/*Resizing and styling the title and logo img so that it stays on the center and doesnt stand out fron other elements*/
 
 /*Navigation bar*/
 
@@ -55,7 +54,7 @@ nav a:hover{
 
 .active{
     color: #0C4D4E;
-}
+}/*When the user is on a specific webpage the navigation will turn into the specified colour*/
 
 nav li {
     display: inline; /*allows the list to be horizontal*/
@@ -67,7 +66,7 @@ nav li {
     transition: 0.6s;
     padding: 20px;
     text-decoration: none;
-}
+}/*Button 2 is on the index page just below our works, I specifically made this colour white to contrast the blue to green background*/
 
 #button2:hover{
     color: #0C4D4E; /*colour of the text remains when hovered*/
@@ -87,7 +86,7 @@ nav li {
     color: #ffffff;
     transition: 0.6s;
     padding: 20px;
-}
+}/*This is for the button on the nevigation bar when the user is on the contacts page*/
 
 
 .button1:hover{
@@ -112,7 +111,7 @@ nav li {
     color: #717171;
     font-size: 15px;
     padding-top: 8px;
-}
+}/*For the hero-title on every webpage that has the hero*/
 
 #tzpbriefabout{
     padding: 50px 60px; 
@@ -286,7 +285,7 @@ footer{
     align-items: right;
     margin-left: 730px;
     margin-top: 20px;
-}
+}/*Move the image to the very right of the container*/
 
 /*Contact Us page*/
 
@@ -298,7 +297,7 @@ footer{
     background-repeat: no-repeat;
     background-size: cover; /*To position the hero image as intended on different screens and not to widen the image*/
     position: relative; /*will adjust itself to its relative position*/
-}
+}/*Contacts page has their specific hero image*/
 
 .contactinfo{
     text-align: center;
@@ -324,7 +323,7 @@ footer{
     border-radius: 10px 0px;
     width: 400px;
     height: 40px;
-}
+}/*To style the text inputs and select*/
 
 #inquiry{
     margin-top: 20px;
@@ -335,7 +334,7 @@ footer{
     min-height: 100px;
     border-radius: 10px 0px;
     text-align: center;
-}
+}/*Style the readjustable text area*/
 
 .row4message{
     text-align: center;
@@ -462,7 +461,7 @@ footer{
     padding-bottom: 90px;
     display: flex;
     flex-direction:row;
-}
+} 
 
 .ourcompanynsafety p{
    line-height: 30px;
@@ -486,7 +485,7 @@ footer{
     background-repeat: no-repeat;
     background-size: cover; /*To position the hero image as intended on different screens and not to widen the image*/
     position: relative; /*will adjust itself to its relative position*/
-}
+}/*The works page also has its own hero image with the similar properties as the homepage*/
 
 .hero-text{
     color: #ffffff;
@@ -509,7 +508,8 @@ footer{
         to{
             left: 90px;
         }
-}
+}/*This applies for every page with the hero-text class*/
+/*The banner has the animation where it moves from 0px to 90px forwards from the left when entering a webpage with hero*/
 
 
 .allworks{
@@ -634,14 +634,15 @@ footer{
     background-repeat: no-repeat;
     background-size: cover; /*To position the hero image as intended on different screens and not to widen the image*/
     position: relative; /*will adjust itself to its relative position*/
-}
+}/*Involve page has similar hero properties however has a different image*/
 
 .volunteer{
     padding: 50px 0;
 }
+
 .volunteer-categories{
     padding: 20px 220px;
-}
+}/*The whole area padding from top and bottom to left and right*/
 
 .volunteer-categories h4{
     padding-top: 40px;
@@ -654,13 +655,13 @@ footer{
     text-align: justify;
     line-height: 40px;
     font-size: 15px;
-}
+} 
 
 .community img{ 
     width: 400px;
     height: 200px;
     margin-left: 40px;
-}
+} /*Resize the image to align with the text and margin-left to add space between the image and the text description*/
 
 #howtogetinvolved{
     padding: 30px 0;
@@ -668,4 +669,4 @@ footer{
     text-align: center;
     color: #f9f9f9;
     font-size: 20px;
-}
+}/*To emphasise the text written*/
