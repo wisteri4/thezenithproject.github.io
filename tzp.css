@@ -35,7 +35,7 @@ ul{
     padding: 0;
     text-align: center;
     font-size: 17px;
-    padding-top: 40px; /*padding from the logo and title*/
+    margin-top: 40px; /*Margin from the logo and title*/
 }
 
 nav a {
@@ -50,7 +50,7 @@ nav a {
 
 nav a:hover{
     color: #0C4D4E;
-}
+}/*The link changes colour on hover with a duration of 0.6s*/
 
 .active{
     color: #0C4D4E;
@@ -283,11 +283,12 @@ footer{
     margin-top: 20px;
 }/*Move the image to the very right of the container*/
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1000px){
     .footerlogo{ 
        margin: 0;
     }
 }
+
 /*Contact Us page*/
 
 .contacthero{
@@ -309,12 +310,14 @@ footer{
     grid-template-columns: auto auto;
 }
 
+@media screen and (max-width: 1000px){
+    .contactinfo{
+        display: inline;
+    }
+} /*Contact information will stay in one coloumn rather than two coloumns*/
+
 .row4contacts {
     padding: 10px 0;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    resize: vertical;
 }
 
 .row4contacts input[type="text"], select{
@@ -384,7 +387,6 @@ footer{
     border-radius: 10px 0;
     background-color: #f9f9f9;
     box-shadow: 0px 3px 5px #dcdcdc;
-    overflow: auto; /*When adjusting to the screen the auto should let the user scroll to read down the contents*/
     text-align: center;
     font-size: 13px;
     line-height: 20px;
