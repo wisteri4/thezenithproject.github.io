@@ -218,12 +218,12 @@ hr {
 }
 
 #workaside{ 
-    padding-top: 70px;
-    padding-left: 20px;
-    padding-right: 10px;
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-right: 10px;
     text-align: justify;
     font-size: 15px;
-} /*overall padding and text for work2 and 3*/
+} /*overall margin and text for work2 and 3*/
 
 #work2{
     display: flex;
@@ -235,7 +235,7 @@ hr {
 } /*work3 spacing from work2 with the padding and flex contents in work3*/
 
 #work3 div, #work2 div{
-    padding-right: 20px;
+    margin-right: 20px;
 }/*work2 and work3 margin from the image*/
 
 #work3 img, #work2 img{
@@ -276,17 +276,18 @@ footer{
     text-align: left;
 }
 
-
 .footerlogo{
     width: 100px;
     height: 100px;
-    display:inline-flex;
-    justify-content: right;
-    align-items: right;
     margin-left: 730px;
     margin-top: 20px;
 }/*Move the image to the very right of the container*/
 
+@media screen and (max-width: 900px){
+    .footerlogo{ 
+       margin: 0;
+    }
+}
 /*Contact Us page*/
 
 .contacthero{
@@ -499,7 +500,6 @@ footer{
     animation:example2 3s;
     animation-fill-mode: forwards;
 }
-
     @keyframes example2{
         from{
             left: 0px;
