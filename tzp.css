@@ -106,6 +106,29 @@ nav li {
     position: relative; /*will adjust itself to its relative position*/
 }
 
+.hero-text{
+    color: #ffffff;
+    background-color: rgba(12, 77, 78, 0.5);
+    position:absolute;
+    padding-top:210px;
+    padding-bottom: 210px;
+    padding-left: 70px;
+    padding-right: 70px;
+    line-height: 45px;
+    animation:example2 3s;
+    animation-fill-mode: forwards;
+}
+    @keyframes example2{
+        from{
+            left: 0px;
+        }
+
+        to{
+            left: 90px;
+        }
+}/*This applies for every page with the hero-text class*/
+/*The banner has the animation where it moves from 0px to 90px forwards from the left when entering a webpage with hero*/
+
 .hero-title{
     text-align: center;
     color: #717171;
@@ -489,30 +512,6 @@ footer{
     background-size: cover; /*To position the hero image as intended on different screens and not to widen the image*/
     position: relative; /*will adjust itself to its relative position*/
 }/*The works page also has its own hero image with the similar properties as the homepage*/
-
-.hero-text{
-    color: #ffffff;
-    background-color: rgba(12, 77, 78, 0.5);
-    position:absolute;
-    padding-top:210px;
-    padding-bottom: 210px;
-    padding-left: 70px;
-    padding-right: 70px;
-    line-height: 45px;
-    animation:example2 3s;
-    animation-fill-mode: forwards;
-}
-    @keyframes example2{
-        from{
-            left: 0px;
-        }
-
-        to{
-            left: 90px;
-        }
-}/*This applies for every page with the hero-text class*/
-/*The banner has the animation where it moves from 0px to 90px forwards from the left when entering a webpage with hero*/
-
 
 .allworks{
     display: flex;
