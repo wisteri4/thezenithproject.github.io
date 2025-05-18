@@ -26,10 +26,11 @@
 
     <h2 class="webpagetitle">Send us a message</h2> <!--To display which webpage the user is viewing-->
 
-    <div class="contacthero">
-        <div class="contactinfo">
+    <div class="contacthero"> <!--For the background image of the page, the image is input through css-->
+        <div class="contactinfo"> <!--Group elements together for the padding surrounding the input text and the rest of the websites content-->
 
-            <div class="row4contacts">
+            <div class="row4contacts"> 
+                <!--Same class for every input type text and select so they can have consistent border radius and space between each input element-->
                 <input type="text" id="fname" name="fname" placeholder="First name" alt="first name"> 
             </div>
 
@@ -48,7 +49,7 @@
             <div class="row4contacts">
                 <select id="country" name="country" placeholder="Country" alt="country">
                     <!--To select which country the user is living in-->
-                    <option value="UAE">United Arab Emirates</option>
+                    <option value="UAE">United Arab Emirates</option> <!--To display the options the user can choose from-->
                     <option value="IN">India</option>
                     <option value="JP">Japan</option>
                     <option value="PK">Pakistan</option>
@@ -65,7 +66,8 @@
 
         </div>
 
-            <div class="row4message">
+            <div class="row4message"> 
+            <!--These two classes are a seperate class as I intend this to be placed in the middle bottom and not in two columns of the row4contacts-->
                 <textarea id="inquiry" name="inquiry" placeholder="Give us a message" alt="inquiry"></textarea>
             </div>
 
