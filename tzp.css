@@ -159,7 +159,6 @@ nav li {
     width: 400px;
     height: 380px;
     transition-duration: 5s; /*the image spins at a duration of 5 seconds*/
-    transition-property: transform;
 } 
 
 #moonspin:hover {
